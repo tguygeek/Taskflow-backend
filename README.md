@@ -60,3 +60,14 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 # Taskflow_backend
+# Backend — copie simple
+cd /home/guy/dev_folder
+cp -r task-Manager/backend taskflow-backend-temp
+cd taskflow-backend-temp
+git init
+git add .
+git commit -m "Taskflow backend - Phase 3"
+git branch -M main
+git remote add origin https://github.com/tguygeek/Taskflow-backend.git
+git push -u origin main
+
